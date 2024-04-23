@@ -41,8 +41,8 @@ async function main() {
     mask:'*'
   });
 
-  console.log(chalk.blue('User Input Password:'), userInput.password);
-  console.log(chalk.blue('User Input PIN:'), pinAnswer.pin);
+  
+  //console.log(chalk.blue('User Input PIN:'), pinAnswer.pin);
   
   //let myBalance = userInput.amount;
 

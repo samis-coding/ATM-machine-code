@@ -36,8 +36,7 @@ async function main() {
         message: 'Enter your pin number',
         mask: '*'
     });
-    console.log(chalk.blue('User Input Password:'), userInput.password);
-    console.log(chalk.blue('User Input PIN:'), pinAnswer.pin);
+    //console.log(chalk.blue('User Input PIN:'), pinAnswer.pin);
     //let myBalance = userInput.amount;
     if (pinAnswer.pin === userInput.password) {
         console.log(chalk.green("Correct Pin code!!"));
