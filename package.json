@@ -1,6 +1,6 @@
 {
   "name": "samis-atm-machine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript based atm machine code",
   "main": "index.js",
   "type": "module",
